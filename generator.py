@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import commands
 
-
 # generate lmda file by image_name and label  -- some params need to set
 # 1: convert_imageset_path: your caffe setup path
 # 2: resize size
