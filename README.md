@@ -22,3 +22,8 @@ step3：./build/tools/caffe train --solver ·solver_path] --weights [model_path]
 
 such as:
 ./build/tools/caffe train --solver /data/pycaffe-file/proto_file/solver.prototxt --weights /data/pycaffe-file/ResNet-50-model.caffemodel --gpu all
+
+
+
+./build/tools/compute_image_mean examples/mnist/mnist_train_lmdb examples/mnist/mean.binaryproto
+
